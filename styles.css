@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+}
+
+.header-top-menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.header-top-menu a:hover {
+    background-color: #f0f0f0;
+    text-decoration: underline;
+}
+
+.phone {
+    color: #888;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo span {
+    color: red;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    max-width: 600px;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-btn {
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: darkred;
+}
+
+.user-actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.user-actions div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #333;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.user-actions div:hover {
+    background-color: #f0f0f0;
+}
+
+.user-actions .badge {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    gap: 15px;
+}
+
+.catalog-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.catalog-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.header-bottom a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.header-bottom a:hover {
+    background-color: #f0f0f0;
+    text-decoration: underline;
+}
+
+.header-bottom a.highlight {
+    color: red;
+    font-weight: bold;
+}
